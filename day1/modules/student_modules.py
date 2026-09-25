@@ -1,4 +1,4 @@
-from modules.result_calculator import calculate_percentage
+from result_calculator import calculate_percentage
 
 
 def input_student():
@@ -13,7 +13,6 @@ def input_student():
            "comm":marks_comm
            }
     return dict_student_info
-   
 
 def calculate_percentage(marks_1,marks_2,marks_3):
     total= (marks_1+marks_2+marks_3)
