@@ -1,4 +1,6 @@
 # Day 1 - Python Fundamentals
+
+
 def input_student():
     student_name = input("Enter student name:")
     marks_python = float(input("Enter marks for Python:"))
@@ -13,10 +15,10 @@ def input_student():
     return dict_student_info
    # return student_name,marks_comm,marks_python,marks_math
    
-
+  
 #TODO:
-def calculate_percentage(marks_python,marks_math,marks_comm):
-    total= (marks_comm+marks_math+marks_python)
+ def calculate_percentage(marks_1,marks_2,marks_3):
+    total= (marks_1+marks_2+marks_3)
     percentage = (total/3)*100
     return percentage
 
@@ -29,3 +31,4 @@ if __name__== "__main__":
                                             student_info["math"],
                                             student_info["comm"])
                                             )
+ 
