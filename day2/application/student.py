@@ -20,6 +20,9 @@ class Student:
         total = self.python + self.mathematics + self.communication
 
         return total / 3
+    
+    def __str__(self):
+       """this is an overloaded function depicting polymorphism"""
 
     def grade(self):
                 percentage=self.calculate_percentage()
