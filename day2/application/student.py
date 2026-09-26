@@ -29,3 +29,11 @@ class Student:
         print("Mathematics:", self.mathematics)
         print("Communication:", self.communication)
         print("Percentage:", self.calculate_percentage())
+
+if __name__ == "__main__":
+        obj_1 = Student("rohith",19,34,56,78)
+        obj_2 = Student("shymanth",20,65,45,34)
+        obj_3 = Student("shreyas",19,67,65,30)
+        obj_1.display()
+        obj_2.display()
+        obj_3.display()
